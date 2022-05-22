@@ -29,3 +29,8 @@ Follow the steps:
 - git clone
 - npm i
 - ng serve
+
+## Task 2
+
+- [s3-website](http://rs-school-store-app-2.s3-website-us-east-1.amazonaws.com/)
+- [CloudFront URL](https://d1ix8stvd993vw.cloudfront.net)

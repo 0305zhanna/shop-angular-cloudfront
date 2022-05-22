@@ -5,6 +5,12 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "client:deploy": "sls client deploy --no-config-change --no-policy-change --no-cors-change",
+    "client:build:deploy": "npm run build && npm run client:deploy",
+    "cloudfront:setup": "sls deploy",
+    "cloudfront:invalidate": "sls invalidateCloudfrontCache",
+    "cloudfront:build:deploy": "npm run client:build:deploy && npm run cloudfront:invalidate",
+    "cloudfront:update:build:deploy": "npm run cloudfront:setup && npm run cloudfront:build:deploy",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
@@ -25,8 +31,10 @@
     "@angular/router": "~12.0.0",
     "bootstrap": "^4.6.0",
     "rxjs": "~6.6.0",
+    "serverless-finch": "^4.0.0",
     "tslib": "^2.0.0",
-    "zone.js": "~0.11.4"
+    "zone.js": "~0.11.4",
+    "serverless-single-page-app-plugin": "file:./serverless-single-page-app-plugin"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~12.0.0",

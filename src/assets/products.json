@@ -4,55 +4,55 @@
     "description": "Short Product Description1",
     "id": "7567ec4b-b10c-48c5-9345-fc73c48a80aa",
     "price": 2.4,
-    "title": "ProductOne"
+    "title": "Гуашь ArtSpace, 12 цветов, 10мл, картон"
   },
   {
     "count": 6,
     "description": "Short Product Description3",
     "id": "7567ec4b-b10c-48c5-9345-fc73c48a80a0",
     "price": 10,
-    "title": "ProductNew"
+    "title": "Скрепки ОФИСМАГ 25 мм КРАСНЫЕ, 100шт."
   },
   {
     "count": 7,
     "description": "Short Product Description2",
     "id": "7567ec4b-b10c-48c5-9345-fc73c48a80a2",
     "price": 23,
-    "title": "ProductTop"
+    "title": "Ножницы BRAUBERG \"Classic+\", 160 мм"
   },
   {
     "count": 12,
     "description": "Short Product Description7",
     "id": "7567ec4b-b10c-48c5-9345-fc73c48a80a1",
     "price": 15,
-    "title": "ProductTitle"
+    "title": "Восковые мелки ЛУЧ \"Кроха\", НАБОР 16 шт"
   },
   {
     "count": 7,
     "description": "Short Product Description2",
     "id": "7567ec4b-b10c-48c5-9345-fc73c48a80a3",
     "price": 23,
-    "title": "Product"
+    "title": "Зажимы для бумаг 19 мм, на 60 листов, цветные, BRAUBERG"
   },
   {
     "count": 8,
     "description": "Short Product Description4",
     "id": "7567ec4b-b10c-48c5-9345-fc73348a80a1",
     "price": 15,
-    "title": "ProductTest"
+    "title": "Кисть коза 1 YIWU"
   },
   {
     "count": 2,
     "description": "Short Product Descriptio1",
     "id": "7567ec4b-b10c-48c5-9445-fc73c48a80a2",
     "price": 23,
-    "title": "Product2"
+    "title": "Кисть коза 1 круглая"
   },
   {
     "count": 3,
     "description": "Short Product Description7",
     "id": "7567ec4b-b10c-45c5-9345-fc73c48a80a1",
     "price": 15,
-    "title": "ProductName"
+    "title": "Кисть коза, круглая, 3"
   }
 ]
